@@ -1,5 +1,7 @@
 # docker-go
 
+![Docker Pulls](https://img.shields.io/docker/pulls/hyperjiang/golang.svg)
+
 Docker image for golang which contains:
 
 - [Go dependency management tool](https://github.com/golang/dep)
@@ -21,3 +23,7 @@ Current available tags:
 - lastest
 - 1.11
 - 1.10
+- 1.11.2
+- 1.11.1
+- 1.10.5
+- 1.10.4

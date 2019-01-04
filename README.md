@@ -1,6 +1,7 @@
 # docker-go
 
-![Docker Pulls](https://img.shields.io/docker/pulls/hyperjiang/golang.svg)
+[![Docker Build Status](https://img.shields.io/docker/build/hyperjiang/golang.svg)](https://hub.docker.com/r/hyperjiang/golang)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hyperjiang/golang.svg)](https://hub.docker.com/r/hyperjiang/golang)
 
 Docker image for golang which contains:
 

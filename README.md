@@ -22,8 +22,10 @@ docker pull hyperjiang/golang
 Current available tags:
 
 - lastest
+- 1.12
 - 1.11
 - 1.10
+- 1.12.0
 - 1.11.5
 - 1.11.4
 - 1.11.2

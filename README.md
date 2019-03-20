@@ -23,16 +23,18 @@ Current available tags:
 
 - lastest
 - 1.12
-- 1.11
-- 1.10
 - 1.12.0
-- 1.11.5
-- 1.11.4
-- 1.11.2
+- 1.12.1
+- 1.11
 - 1.11.1
-- 1.10.8
-- 1.10.7
-- 1.10.5
+- 1.11.2
+- 1.11.4
+- 1.11.5
+- 1.11.6
+- 1.10
 - 1.10.4
+- 1.10.5
+- 1.10.7
+- 1.10.8
 
 *go version of 1.11.3 and 1.10.6 have a bug which will break "go get" for import path patterns containing "...", so I don't build their images.*

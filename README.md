@@ -30,6 +30,7 @@ Current available tags:
 - 1.12.5
 - 1.12.6
 - 1.12.7
+- 1.12.9
 - 1.11
 - 1.11.1
 - 1.11.2
@@ -40,6 +41,7 @@ Current available tags:
 - 1.11.10
 - 1.11.11
 - 1.11.12
+- 1.11.13
 - 1.10
 - 1.10.4
 - 1.10.5
@@ -52,3 +54,4 @@ Some golang versions have defects, so their images will not be built.
 
 - 1.11.3 and 1.10.6 have a bug which will break "go get" for import path patterns containing "..."
 - 1.11.7, 1.11.8, 1.12.2, 1.12.3 have a bug of using the prebuilt binary releases on older versions of GNU/Linux led to failures when linking programs that used cgo.
+- 1.12.8 has bugs in linker and the os and math/big package.

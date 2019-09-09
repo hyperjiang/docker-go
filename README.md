@@ -15,6 +15,14 @@ Docker image for golang which contains:
 
 ## pull the docker image
 
+For newer images (version >= 1.13)
+
+```
+docker pull quay.io/hyper/go
+```
+
+For legacy images (version <= 1.12.9)
+
 ```
 docker pull hyperjiang/golang
 ```

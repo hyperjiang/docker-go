@@ -1,4 +1,4 @@
-FROM golang:1.12 as golang
+FROM golang:1.13 as golang
 
 # build golang environment
 ENV PROTOC_VER 3.9.1
@@ -15,7 +15,6 @@ RUN apt-get update -y && \
     github.com/gogo/protobuf/protoc-gen-gogofast \
     github.com/gogo/protobuf/protoc-gen-gogofaster \
     github.com/gogo/protobuf/protoc-gen-gogoslick \
-    github.com/golang/dep/cmd/dep \
     github.com/golang/mock/gomock \
     github.com/golang/mock/mockgen \
     github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway \

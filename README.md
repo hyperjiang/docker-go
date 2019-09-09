@@ -6,7 +6,6 @@
 
 Docker image for golang which contains:
 
-- [Go dependency management tool](https://github.com/golang/dep)
 - [GoMock](https://github.com/golang/mock)
 - [Protocol Buffers](https://github.com/protocolbuffers/protobuf)
 - [Protocol Buffers for Go with Gadgets](https://github.com/gogo/protobuf)
@@ -23,6 +22,8 @@ docker pull hyperjiang/golang
 Current available tags:
 
 - lastest
+- 1.13
+- 1.13.0
 - 1.12
 - 1.12.0
 - 1.12.1
@@ -47,6 +48,10 @@ Current available tags:
 - 1.10.5
 - 1.10.7
 - 1.10.8
+
+## breaking changes
+
+From 1.13 and later on, [dep](https://github.com/golang/dep) is removed from the images.
 
 ## unbuilt versions
 

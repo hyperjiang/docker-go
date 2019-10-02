@@ -1,7 +1,7 @@
 FROM golang:1.13 as golang
 
 # build golang environment
-ENV PROTOC_VER 3.9.1
+ENV PROTOC_VER 3.9.2
 
 RUN apt-get update -y && \
     apt-get install -y apt-utils zip unzip; \

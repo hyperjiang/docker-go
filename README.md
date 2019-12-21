@@ -13,6 +13,7 @@ Docker image for golang which contains:
 - [Golang ProtoBuf Validator Compiler](https://github.com/mwitkow/go-proto-validators)
 - [gRPC-Go](https://github.com/grpc/grpc-go)
 - [gRPC Gateway](https://github.com/grpc-ecosystem/grpc-gateway)
+- [buf](https://github.com/bufbuild/buf)
 
 ## pull the docker image
 
@@ -57,6 +58,12 @@ Current available tags:
 - 1.10.5
 - 1.10.7
 - 1.10.8
+
+## breaking changes
+
+From 1.13 and later on, [dep](https://github.com/golang/dep) is removed from the images.
+
+From 1.13.5 and 1.12.14 and later on, [buf](https://github.com/bufbuild/buf) is pre-installed.
 
 ## unbuilt versions
 

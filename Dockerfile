@@ -23,5 +23,6 @@ RUN apt-get update -y && \
     github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway \
     github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger \
     github.com/mwitkow/go-proto-validators/protoc-gen-govalidators \
+    github.com/uber/prototool/cmd/prototool \
     google.golang.org/grpc; \
     rm -rf /var/lib/apt/lists/* /tmp/temp/

@@ -21,6 +21,12 @@ Docker image for golang which contains:
 For newer images (version >= 1.13)
 
 ```
+docker pull hyperjiang/golang
+```
+
+or
+
+```
 docker pull quay.io/hyper/go
 ```
 
@@ -33,6 +39,8 @@ docker pull hyperjiang/golang
 Current available tags:
 
 - lastest
+- 1.14
+- 1.14.0
 - 1.13
 - 1.13.0
 - 1.13.1

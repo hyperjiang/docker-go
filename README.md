@@ -22,49 +22,13 @@ Docker image for golang which contains:
 docker pull hyperjiang/golang
 ```
 
-Current available tags:
+Latest versions:
 
-- lastest
-- 1.13
-- 1.13.0
-- 1.13.1
-- 1.13.3
-- 1.13.4
-- 1.13.5
-- 1.13.6
-- 1.13.7
-- 1.13.8
-- 1.12
-- 1.12.0
-- 1.12.1
-- 1.12.4
-- 1.12.5
-- 1.12.6
-- 1.12.7
-- 1.12.9
-- 1.12.10
-- 1.12.12
-- 1.12.13
-- 1.12.14
-- 1.12.15
-- 1.12.16
-- 1.12.17
-- 1.11
-- 1.11.1
-- 1.11.2
-- 1.11.4
-- 1.11.5
-- 1.11.6
-- 1.11.9
-- 1.11.10
-- 1.11.11
-- 1.11.12
-- 1.11.13
-- 1.10
-- 1.10.4
-- 1.10.5
-- 1.10.7
-- 1.10.8
+- lastest, 1.14, 1.14.0
+- 1.13, 1.13.8
+- 1.12, 1.12.17
+
+Check more available versions here: https://github.com/hyperjiang/docker-go/releases
 
 ## breaking changes
 

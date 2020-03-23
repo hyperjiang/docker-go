@@ -32,8 +32,8 @@ docker pull hyperjiang/golang
 
 Latest versions:
 
-- lastest, 1.14, 1.14.0
-- 1.13, 1.13.8
+- lastest, 1.14, 1.14.1
+- 1.13, 1.13.9
 - 1.12, 1.12.17
 
 Check more available versions here: https://github.com/hyperjiang/docker-go/releases

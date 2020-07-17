@@ -32,8 +32,8 @@ docker pull hyperjiang/golang
 
 Latest versions:
 
-- lastest, 1.14, 1.14.4
-- 1.13, 1.13.12
+- lastest, 1.14, 1.14.6
+- 1.13, 1.13.14
 
 Check more available versions here: https://github.com/hyperjiang/docker-go/releases
 
@@ -51,3 +51,4 @@ Some golang versions have defects, so their images will not be built.
 - 1.11.7, 1.11.8, 1.12.2, 1.12.3 have a bug of using the prebuilt binary releases on older versions of GNU/Linux led to failures when linking programs that used cgo.
 - 1.12.8 has bugs in linker and the os and math/big package.
 - 1.12.11, 1.13.2 has bugs in go command, runtime, syscall and net packages.
+- 1.14.15, 1.13.13 has bugs in go command, the compiler, the linker, vet, and the database/sql, encoding/json, net/http, reflect, and testing packages.

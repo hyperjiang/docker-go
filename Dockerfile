@@ -1,4 +1,4 @@
-FROM golang:1.14.8
+FROM golang:1.14.9
 
 # build golang environment
 ENV PROTOC_VER 3.13.0

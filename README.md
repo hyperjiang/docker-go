@@ -37,7 +37,8 @@ docker pull hyperjiang/golang
 
 Latest versions:
 
-- lastest, 1.14, 1.14.10
+- lastest, 1.15, 1.15.3
+- 1.14, 1.14.10
 
 Check more available versions here: https://github.com/hyperjiang/docker-go/releases
 
@@ -48,6 +49,8 @@ From 1.13 and later on, [dep](https://github.com/golang/dep) is removed from the
 From 1.13.5 and 1.12.14 and later on, [buf](https://github.com/bufbuild/buf) and [prototool](https://github.com/uber/prototool) are pre-installed.
 
 From 1.14.2 and later on, [buf](https://github.com/bufbuild/buf) is removed as it does not support 1.14.
+
+From 1.14.10 and 1.15.3 and later on, [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway/) is upgraded to v2, check more details [here](https://grpc-ecosystem.github.io/grpc-gateway/docs/v2-migration.html).
 
 ## unbuilt versions
 

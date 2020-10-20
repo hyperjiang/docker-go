@@ -50,6 +50,8 @@ From 1.13.5 and 1.12.14 and later on, [buf](https://github.com/bufbuild/buf) and
 
 From 1.14.2 and later on, [buf](https://github.com/bufbuild/buf) is removed as it does not support 1.14.
 
+From 1.14.10 and 1.15.3 and later on, [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway/) is upgraded to v2, check more details [here](https://grpc-ecosystem.github.io/grpc-gateway/docs/v2-migration.html).
+
 ## unbuilt versions
 
 Some golang versions have defects, so their images will not be built.

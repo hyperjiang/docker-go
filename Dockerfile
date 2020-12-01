@@ -1,7 +1,7 @@
-FROM golang:1.14.11
+FROM golang:1.14.12
 
 # build golang environment
-ENV PROTOC_VER 3.13.0
+ENV PROTOC_VER 3.14.0
 
 RUN apt-get update && apt-get install -y apt-utils zip unzip;
 

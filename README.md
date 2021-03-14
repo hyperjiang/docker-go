@@ -1,7 +1,6 @@
 # docker-go
 
 [![Docker Repository on Quay](https://quay.io/repository/hyper/go/status "Docker Repository on Quay")](https://quay.io/repository/hyper/go)
-[![Docker Build Status](https://img.shields.io/docker/build/hyperjiang/golang.svg)](https://hub.docker.com/r/hyperjiang/golang)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hyperjiang/golang.svg)](https://hub.docker.com/r/hyperjiang/golang)
 [![License](https://img.shields.io/github/license/hyperjiang/docker-go.svg)](https://github.com/hyperjiang/docker-go)
 
@@ -37,8 +36,8 @@ docker pull hyperjiang/golang
 
 Latest versions:
 
-- lastest, 1.16
-- 1.15, 1.15.8
+- lastest, 1.16.2
+- 1.15, 1.15.10
 
 Check more available versions here: https://github.com/hyperjiang/docker-go/releases
 
@@ -58,6 +57,7 @@ Some golang versions have defects, so their images will not be built.
 
 - 1.11.3 and 1.10.6 have a bug which will break "go get" for import path patterns containing "..."
 - 1.11.7, 1.11.8, 1.12.2, 1.12.3 have a bug of using the prebuilt binary releases on older versions of GNU/Linux led to failures when linking programs that used cgo.
-- 1.12.8 has bugs in linker and the os and math/big package.
-- 1.12.11, 1.13.2 has bugs in go command, runtime, syscall and net packages.
-- 1.14.15, 1.13.13 has bugs in go command, the compiler, the linker, vet, and the database/sql, encoding/json, net/http, reflect, and testing packages.
+- 1.12.8 have bugs in linker and the os and math/big package.
+- 1.12.11, 1.13.2 have bugs in go command, runtime, syscall and net packages.
+- 1.14.15, 1.13.13 have bugs in go command, the compiler, the linker, vet, and the database/sql, encoding/json, net/http, reflect, and testing packages.
+- 1.15.9, 1.16.1 have bugs in cgo, the compiler, linker, the go command, and the syscall and time packages.

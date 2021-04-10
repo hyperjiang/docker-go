@@ -13,6 +13,7 @@ Docker image for golang which contains:
 - [gRPC-Go](https://github.com/grpc/grpc-go)
 - [gRPC Gateway](https://github.com/grpc-ecosystem/grpc-gateway)
 - [prototool](https://github.com/uber/prototool)
+- [buf](https://github.com/bufbuild/buf)
 
 ## pull the docker image
 
@@ -50,6 +51,8 @@ From 1.13.5 and 1.12.14 and later on, [buf](https://github.com/bufbuild/buf) and
 From 1.14.2 and later on, [buf](https://github.com/bufbuild/buf) is removed as it does not support 1.14.
 
 From 1.14.10 and 1.15.3 and later on, [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway/) is upgraded to v2, check more details [here](https://grpc-ecosystem.github.io/grpc-gateway/docs/v2-migration.html).
+
+From 1.16.3 and later on, [buf](https://github.com/bufbuild/buf) is pre-installed again.
 
 ## unbuilt versions
 

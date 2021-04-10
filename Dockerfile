@@ -22,6 +22,9 @@ RUN go env -w GO111MODULE=on; \
     github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2 \
     github.com/mwitkow/go-proto-validators/protoc-gen-govalidators \
     github.com/uber/prototool/cmd/prototool \
+    github.com/bufbuild/buf/cmd/buf \
+    github.com/bufbuild/buf/cmd/protoc-gen-buf-breaking \
+    github.com/bufbuild/buf/cmd/protoc-gen-buf-lint \
     google.golang.org/grpc;
 
 RUN rm -rf /var/lib/apt/lists/* /tmp/temp/

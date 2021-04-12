@@ -8,6 +8,7 @@ Docker image for golang which contains:
 
 - [GoMock](https://github.com/golang/mock)
 - [Protocol Buffers](https://github.com/protocolbuffers/protobuf)
+- [Go support for Protocol Buffers](https://github.com/protocolbuffers/protobuf-go)
 - [Protocol Buffers for Go with Gadgets](https://github.com/gogo/protobuf)
 - [Golang ProtoBuf Validator Compiler](https://github.com/mwitkow/go-proto-validators)
 - [gRPC-Go](https://github.com/grpc/grpc-go)
@@ -52,7 +53,7 @@ From 1.14.2 and later on, [buf](https://github.com/bufbuild/buf) is removed as i
 
 From 1.14.10 and 1.15.3 and later on, [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway/) is upgraded to v2, check more details [here](https://grpc-ecosystem.github.io/grpc-gateway/docs/v2-migration.html).
 
-From 1.16.3 and later on, [buf](https://github.com/bufbuild/buf) is pre-installed again.
+From 1.16.3 and later on, [buf](https://github.com/bufbuild/buf) and [protoc-gen-go](https://github.com/protocolbuffers/protobuf-go) are pre-installed.
 
 ## unbuilt versions
 

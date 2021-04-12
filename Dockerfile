@@ -25,6 +25,7 @@ RUN go env -w GO111MODULE=on; \
     github.com/bufbuild/buf/cmd/buf \
     github.com/bufbuild/buf/cmd/protoc-gen-buf-breaking \
     github.com/bufbuild/buf/cmd/protoc-gen-buf-lint \
+    google.golang.org/protobuf/cmd/protoc-gen-go \
     google.golang.org/grpc;
 
 RUN rm -rf /var/lib/apt/lists/* /tmp/temp/

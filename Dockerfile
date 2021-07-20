@@ -22,9 +22,9 @@ RUN go env -w GO111MODULE=on; \
     github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2 \
     github.com/mwitkow/go-proto-validators/protoc-gen-govalidators \
     github.com/uber/prototool/cmd/prototool \
-    github.com/bufbuild/buf/cmd/buf \
-    github.com/bufbuild/buf/cmd/protoc-gen-buf-breaking \
-    github.com/bufbuild/buf/cmd/protoc-gen-buf-lint \
+    github.com/bufbuild/buf/cmd/buf@v0.43.2 \
+    github.com/bufbuild/buf/cmd/protoc-gen-buf-breaking@v0.43.2 \
+    github.com/bufbuild/buf/cmd/protoc-gen-buf-lint@v0.43.2 \
     google.golang.org/protobuf/cmd/protoc-gen-go \
     google.golang.org/grpc \
     google.golang.org/grpc/cmd/protoc-gen-go-grpc;

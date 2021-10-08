@@ -18,19 +18,13 @@ Docker image for golang which contains:
 
 ## pull the docker image
 
-For newer images (version >= 1.13)
-
-```
-docker pull hyperjiang/golang
-```
-
-or
+For latest images (version >= 1.13)
 
 ```
 docker pull quay.io/hyper/go
 ```
 
-For legacy images (version <= 1.12.9)
+For legacy images (version <= 1.16.6)
 
 ```
 docker pull hyperjiang/golang
@@ -38,7 +32,7 @@ docker pull hyperjiang/golang
 
 Latest versions:
 
-- lastest, 1.16.7
+- lastest, 1.16.9
 - 1.15, 1.15.15
 
 Check more available versions here: https://github.com/hyperjiang/docker-go/releases

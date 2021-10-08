@@ -1,7 +1,7 @@
-FROM golang:1.16.8
+FROM golang:1.16.9
 
 # build golang environment
-ENV PROTOC_VER 3.18.0
+ENV PROTOC_VER 3.18.1
 
 RUN apt-get update && apt-get install -y apt-utils zip unzip;
 
@@ -22,9 +22,9 @@ RUN go env -w GO111MODULE=on; \
     github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2 \
     github.com/mwitkow/go-proto-validators/protoc-gen-govalidators \
     github.com/uber/prototool/cmd/prototool \
-    github.com/bufbuild/buf/cmd/buf@v0.43.2 \
-    github.com/bufbuild/buf/cmd/protoc-gen-buf-breaking@v0.43.2 \
-    github.com/bufbuild/buf/cmd/protoc-gen-buf-lint@v0.43.2 \
+    github.com/bufbuild/buf/cmd/buf \
+    github.com/bufbuild/buf/cmd/protoc-gen-buf-breaking \
+    github.com/bufbuild/buf/cmd/protoc-gen-buf-lint \
     google.golang.org/protobuf/cmd/protoc-gen-go \
     google.golang.org/grpc \
     google.golang.org/grpc/cmd/protoc-gen-go-grpc;

@@ -21,16 +21,10 @@ Docker image for golang which contains:
 For newer images (version >= 1.13)
 
 ```
-docker pull hyperjiang/golang
-```
-
-or
-
-```
 docker pull quay.io/hyper/go
 ```
 
-For legacy images (version <= 1.12.9)
+For legacy images (version <= 1.16.6)
 
 ```
 docker pull hyperjiang/golang
@@ -38,8 +32,8 @@ docker pull hyperjiang/golang
 
 Latest versions:
 
-- lastest, 1.17
-- 1.16, 1.16.7
+- lastest, 1.17.2
+- 1.16, 1.16.9
 
 Check more available versions here: https://github.com/hyperjiang/docker-go/releases
 
@@ -65,3 +59,4 @@ Some golang versions have defects, so their images will not be built.
 - 1.12.11, 1.13.2 have bugs in go command, runtime, syscall and net packages.
 - 1.14.15, 1.13.13 have bugs in go command, the compiler, the linker, vet, and the database/sql, encoding/json, net/http, reflect, and testing packages.
 - 1.15.9, 1.16.1 have bugs in cgo, the compiler, linker, the go command, and the syscall and time packages.
+- Since 1.16.7, images will be only available in quay.io/hyper/go, no more in docker hub.

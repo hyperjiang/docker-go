@@ -1,7 +1,7 @@
-FROM golang:1.16.11
+FROM golang:1.16.12
 
 # build golang environment
-ENV PROTOC_VER 3.19.1
+ENV PROTOC_VER 3.19.2
 
 RUN apt-get update && apt-get install -y apt-utils zip unzip;
 

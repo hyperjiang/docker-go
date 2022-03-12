@@ -1,4 +1,4 @@
-FROM golang:1.16.14
+FROM golang:1.16.15
 
 # build golang environment
 ENV PROTOC_VER 3.19.4
@@ -22,9 +22,9 @@ RUN go env -w GO111MODULE=on; \
     github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2 \
     github.com/mwitkow/go-proto-validators/protoc-gen-govalidators \
     github.com/uber/prototool/cmd/prototool \
-    github.com/bufbuild/buf/cmd/buf@v1.0.0-rc12 \
-    github.com/bufbuild/buf/cmd/protoc-gen-buf-breaking@v1.0.0-rc12 \
-    github.com/bufbuild/buf/cmd/protoc-gen-buf-lint@v1.0.0-rc12 \
+    github.com/bufbuild/buf/cmd/buf \
+    github.com/bufbuild/buf/cmd/protoc-gen-buf-breaking \
+    github.com/bufbuild/buf/cmd/protoc-gen-buf-lint \
     google.golang.org/protobuf/cmd/protoc-gen-go \
     google.golang.org/grpc \
     google.golang.org/grpc/cmd/protoc-gen-go-grpc;
